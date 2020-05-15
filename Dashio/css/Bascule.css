@@ -1,0 +1,91 @@
+.div_genera {
+    display: inline-block;
+}
+.divi1{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+.divi2{
+    display: inline-block;
+    margin: 80px 0 0px 80px;
+    float: left;
+}
+
+.divi3{
+
+
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.nom_compo{
+    color: #4ECDC4;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 20px 0 0 50px;
+}
+.vide{
+    border: none;
+}
+
+
+table, th, td {
+
+    text-align: center;
+}
+table{
+
+    text-align: center;
+
+}
+
+.casei{
+    border: 1px solid #4ECDC4;
+    margin:auto;
+    padding: 0px 25px 0 25px;
+    color:black;
+}
+.casei p{
+    margin:auto;
+    color: #4ECDC4;
+}
+.casei_async{
+    border: 1px solid  #4ECDC4;
+    margin:auto;
+    color: #4ECDC4;
+}
+.casei_async p{
+    margin:auto;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+.image{
+    height: 100px;
+    width: 100px;
+
+}
+.note {
+    border-radius: 10px;
+    background: #4ECDC4;
+    height: auto;
+    width: 90%;
+    margin: 50px auto;
+}
+.tv{
+    margin-top: 20px;
+    margin-left: 150px;
+
+}
+.equiv{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.divi4{
+    margin-top: 50px;
+}
+.divi4 p{
+    margin-left: 50px;
+}

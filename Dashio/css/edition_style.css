@@ -1,0 +1,30 @@
+.titre{
+    color:#4ECDC4;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.partie{
+    width: 100%;
+    margin-top: 30px;
+}
+.partie h4{
+    margin-left: 50px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #00a6b2;
+    color:#5a5a5a;
+}
+.partie p {
+    margin-top: 30px;
+    margin-left: 80px;
+    color: black;
+}
+.partie img{
+    margin-top: 30px;
+    margin-left: 250px
+
+}
+.partie h5{
+    margin-left: 70px;
+    color:#5a5a5a;
+}

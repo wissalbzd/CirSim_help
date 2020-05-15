@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+    <title>La porte ET</title>
+
+    <!-- Favicons -->
+    <link href="img/logo.png" rel="icon">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--external css-->
+    <link href="lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="lib/gritter/css/jquery.gritter.css" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/Composant.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+  <section id="container">
+    <!-- **********************************************************************************************************************************************************
+        TOP BAR CONTENT & NOTIFICATIONS
+        *********************************************************************************************************************************************************** -->
+    <!--header start-->
+    <header class="header black-bg" style="background: black">
+      <div class="sidebar-toggle-box">
+        <div class="fa fa-bars tooltips" data-placement="right" ></div>
+      </div>
+      <!--logo start-->
+      <a href="#" class="logo"><b>Cir<span>Sim</span></b></a>
+      <!--logo end-->
+      <div class="nav notify-row" id="top_menu">
+        <!--la barre de recherche-->
+      </div>
+
+    </header>
+    </header>
+    <!--header end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN SIDEBAR MENU
+        *********************************************************************************************************************************************************** -->
+    <!--sidebar start-->
+    <aside>
+      <div id="sidebar" class="nav-collapse "  style="background: black">
+        <!-- sidebar menu start-->
+        <ul class="sidebar-menu" id="nav-accordion">
+          <p class="centered"><a href="#"><img src="img/logo_CirSim.png"  width="80"></a></p>
+          <h4 class="centered" style="font-family: 'Roboto Light';color: white">CirSim</h4>
+          <li class="mt">
+            <a class="active" href="index.html"><span>CirSim</span></a>
+          </li>
+          <li class="sub-menu"><a href="javascript:;"> <i class="fa fa-book"></i><span >Documentaion</span></a>
+            <ul class="sub" >
+              <li class="sub-menu"><a href="javascript:;"><span >Composants</span></a>
+                <ul class="sub">
+                  <li class="sub-menu"><a href="javascript:;"><span >Portes Logiques</span></a>
+                    <ul class="sub">
+                      <li class="active"><a href="NOT.html">ET</a></li>
+                      <li><a href="buttons.html">Ou</a></li>
+                      <li><a href="panels.html">Non</a></li>
+                      <li><a href="general.html">NonET</a></li>
+                      <li><a href="buttons.html">NonOu</a></li>
+                      <li><a href="panels.html">Oux</a></li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu"><a href="javascript:;"><span >Circuits Combinatoires</span></a>
+                    <ul class="sub">
+                      <li><a href="general.html">Demi additionneur</a></li>
+                      <li><a href="buttons.html">Additionneurs Complet</a></li>
+                      <li><a href="panels.html">Additionneurs nbits</a></li>
+                      <li><a href="Mux.html">Multiplexeur</a></li>
+                      <li><a href="Demuxe.html">Démultiplexeur</a></li>
+                      <li><a href="Encodeur.html">Encodeur</a></li>
+                      <li><a href="Decodeur.html">Décodeur</a></li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu"><a href="javascript:;"><span >Circuits Séquentiels</span></a>
+                    <ul class="sub">
+                      <li><a href="general.html">Bascules</a></li>
+                      <li><a href="buttons.html">Registres</a></li>
+                      <li><a href="panels.html">Compteurs</a></li>
+                    </ul>
+                  </li>
+
+                </ul>
+              </li>
+              <li><a href="buttons.html">Edition</a></li>
+              <li><a href="panels.html">Traitement</a></li>
+            </ul>
+          </li>
+          <li class="sub-menu">
+            <a href="javascript:;">
+
+              <span>A propos de nous</span>
+            </a>
+          </li>
+
+        </ul>
+        <!-- sidebar menu end-->
+      </div>
+    </aside>
+
+    <!--sidebar end-->
+    <!-- **********************************************************************************************************************************************************
+        MAIN CONTENT
+        *********************************************************************************************************************************************************** -->
+    <!--main content start-->
+    <!--main content start-->
+    <section id="main-content" style="background: white"  >
+      <section class="wrapper site-min-height" >
+
+          <div class="div_genera">
+              <h3 class="nom_compo">Multiplexeur:</h3>
+              <h2 class="nom_compos"><span>Types:</span></h2>
+              <h2 class="nom_com"><span> Mux 2 vers 1, 4 vers 1, 16 vers 1 et 32 vers 1.</span></h2>
+              <div class="divi1">
+                  <p class="interne"><span>Exemple: Mux 2-> 1.</span></p>
+                  <p class="interne"><span>En entree: &nbsp;</span><span> 2 bits.</span></p>
+                  <p class="interne"><span>En commande: &nbsp;</span><span>1 bit.</span></p>
+                  <p class="interne"><span>En sortie: &nbsp;</span><span>1 bit.</span></p>
+                  <p class="interne"><span>Equation:  &nbsp;</span><span> sortie (S) = C\.E<sub>0</sub> + C.E<sub>1</sub>.</span></p>
+
+              </div>
+              <div class="divi2">
+                  <img class="image" src="img/And_gate.PNG"  >
+
+              </div>
+              <div class="divi3">
+                  <p style="color: black ;font-family: sans-serif; font-size: 17px" >Table de vérité (2 entrées):</p>
+                  <table class="tv" >
+                      <tr>
+                          <th class="case">E<sub>0</sub></th>
+                          <th class="case">E<sub>1</sub></th>
+                          <th class="case">C</th>
+                          <th class="case">S</th>
+                      </tr>
+                      <tr>
+                          <td class="casei">X</td>
+                          <td class="casei">X</td>
+                          <td class="casei">0</td>
+                          <td class="casei">E<sub>0</sub></td>
+                      </tr>
+                      <tr>
+                        <td class="casei">X</td>
+                        <td class="casei">X</td>
+                        <td class="casei">1</td>
+                        <td class="casei">E<sub>1</sub></td>
+                      </tr>
+                     
+                  </table>
+              </div>
+          </div>
+          <div class="note" >
+
+              <p style="color: white ; padding-left: 75px;padding-top: 10px">
+                  <span style="font-size: 20px" >Note :</span>
+
+              </p>
+              <p style="color: white ; padding-left: 120px; font-size: 15px;padding-bottom: 15px ">En cas de liaison de la sortie avec une des entrees il faut qu'au moins une de ses autres entrées soit a 0 .</p>
+
+          </div>
+      </section>
+  </section>
+  <!---#808080-->
+  <!-- /MAIN CONTENT -->
+  <!--main content end-->
+  <!--footer start-->
+  <footer class="site-footer">
+      <div class="text-center">
+          <p>
+              &copy; Copyrights <strong>CirSim</strong>. All Rights Reserved
+          </p>
+          <a href="general.html#" class="go-top">
+              <i class="fa fa-angle-up"></i>
+          </a>
+      </div>
+  </footer>
+  <!--footer end-->
+</section>
+<!-- js placed at the end of the document so the pages load faster -->
+<script src="lib/jquery/jquery.min.js"></script>
+
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script class="include" type="text/javascript" src="lib/jquery.dcjqaccordion.2.7.js"></script>
+<script src="lib/jquery.scrollTo.min.js"></script>
+<script src="lib/jquery.nicescroll.js" type="text/javascript"></script>
+<!--common script for all pages-->
+<script src="lib/common-scripts.js"></script>
+<!--script for this page-->
+<script type="text/javascript" src="lib/gritter/js/jquery.gritter.js"></script>
+<script type="text/javascript" src="lib/gritter-conf.js"></script>
+</body>
+
+</html>
